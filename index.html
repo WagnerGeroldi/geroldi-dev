@@ -150,7 +150,7 @@
         </div>
     </div>
     <!--Formulário-->
-    <div class="container-fluid bg-white" id="form">
+    <div class="container-fluid bg-light" id="form">
         <div class="row">
             <div class="col mt-3">
                 <h1 class="text-center text-purple"> Contate-nos</h1>
@@ -158,18 +158,105 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-sm-12 mt-1" style="text-align: justify;">
-                <p>Nossa equipe está aguardando seu contato, por favor, preencha o formulário abaixo....
+                <p>
                 </p>
             </div>
-            <strong>FORMULÁRIO EM CONSTRUÇÃO</strong>
-            <!-- <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Nome completo" aria-label="First name">
+            <div class="card mx-auto" style="width: 90%;">
+                <div class="card-header ">
+                    <h6 class="mb-0 d-flex justify-content-center ">
+                        Nossa equipe está aguardando seu contato, por favor, preencha o formulário abaixo...
+                    </h6>
                 </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                </div>
-            </div> -->
+                <form action="" class="container-fluid">
+                    <div class="row form-row">
+                        <div class="col-12 col-md-4">
+                            <div class="form-group">
+                                <label for="nome" class="text-purple ">Nome:</label>
+                                <input type="text" class="form-control mb-2" id="nome" placeholder="Informe seu Nome">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="form-group">
+                                <label for="nome" class="text-purple">E-mail:</label>
+                                <input type="email" class="form-control" id="email" placeholder="usuario@usuario.com">
+                            </div>
+                            <small class="form-text text-muted">
+                                Enviaremos um e-mail para confirmar o recebimento do formulário.
+                            </small>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="form-group">
+                                <label for="linguagem" class="text-purple">Escolha uma Linguagem:</label>
+                                <select name="" id="linguagem" class="form-select mb-2">
+                                    <option value="JavaScript">JavaScript</option>
+                                    <option value="Java">Java</option>
+                                    <option value="c++">C++</option>
+                                    <option value="python">Python</option>
+                                    <option value="hmtl5">HTML5</option>
+                                    <option value="css3">CSS3</option>
+                                    <option value="sass">SASS</option>
+                                    <option value="less">LESS</option>
+                                    <option value="angular">Angular</option>
+                                    <option value="React">React</option>
+                                    <option value="sql">SQL</option>
+                                    <option value="vue">Vue</option>
+                                    <option selected>Escolha a linguagem que mais conhece</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row row-form">
+                        <div class="col-12 col-md-4">
+                            <div class="form-group">
+                                <label for="linguagem" class="text-purple">Como nos Encontrou:</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Facebook
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        Instagram
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Amigos
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        Linkedin
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        Outros
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mande uma mensagem para nós:</label>
+                            <textarea class="form-control" placeholder="Sua mensagem aqui..." id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="col-12 mt-md-5">
+                            <button class="btn bg-purple text-white" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     <footer class="bg-purple mt-4">
